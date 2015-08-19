@@ -1,0 +1,58 @@
+@media all and (max-width: 1199px) {
+    
+    #cats {
+        width: 80%;
+        margin: 1em auto;
+        padding-bottom: 2em;
+        border:0.125em lightgrey;
+        font-family: 'Amatic SC', cursive;
+    }
+
+    #cats h1 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        vertical-align: middle;
+        width: 80%;
+        box-sizing: border-box;
+        height: auto;
+        margin: 1em;
+        padding: 1em;
+        box-shadow: 0.5em 0.5em 0.5em grey;
+    }
+
+}
+
+@media all and (min-width: 1200px) {
+    
+    #cats {
+        width: 80%;
+        margin: 1em auto;
+        padding-bottom: 2em;
+        box-shadow: -0.125em -0.125em 0.125em grey;
+        border:0.125em lightgrey;
+        font-family: 'Amatic SC', cursive;
+    }
+
+    #cats h1 {
+        margin: 1em auto;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    img {
+        display: inline-block;
+        vertical-align: middle;
+        width: 45%;
+        box-sizing: border-box;
+        height: auto;
+        margin: 1em;
+        padding: 1em;
+        box-shadow: 0.5em 0.5em 0.5em grey;
+    }
+
+}
+
